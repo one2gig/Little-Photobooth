@@ -1,0 +1,67 @@
+@theme {
+  --font-display: "Pacifico", cursive;
+  --font-body: "Nunito", ui-rounded, "Segoe UI", sans-serif;
+  --color-cream: #fff6ee;
+  --color-cream-deep: #f8e7dc;
+  --color-ink: #3f2d2d;
+  --color-strawberry: #c73667;
+  --color-blush: #ffe1ec;
+  --color-mint: #e7f8ef;
+  --color-mint-deep: #18794e;
+  --color-lilac: #f3e9ff;
+  --color-lilac-deep: #8d74b8;
+  --color-line: #f3d5de;
+}
+
+.tone-cream { background: #fff6ee; color: #3f2d2d; }
+.tone-pink { background: linear-gradient(180deg, #ffe4ee 0%, #fff6ee 48%); color: #3f2d2d; }
+.tone-mint { background: linear-gradient(180deg, #e7f8ef 0%, #fff6ee 55%); color: #3f2d2d; }
+.tone-lilac { background: linear-gradient(180deg, #f3e9ff 0%, #fff6ee 70%); color: #3f2d2d; }
+
+.btn {
+  display: flex;
+  width: 100%;
+  min-height: 48px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  padding: 0.8rem 1.25rem;
+  font-weight: 800;
+  letter-spacing: 0.01em;
+  transition: transform 160ms ease, opacity 160ms ease;
+}
+
+.btn:disabled { opacity: 0.55; }
+.btn:not(:disabled):active { transform: scale(0.98); }
+.btn-primary { background: #c73667; color: white; }
+.btn-secondary { background: white; color: #c73667; border: 2px solid #f3a0b8; }
+.btn-success { background: #18794e; color: white; }
+.btn-ghost { background: transparent; color: #c73667; }
+
+.field {
+  width: 100%;
+  min-height: 52px;
+  border-radius: 18px;
+  border: 1.5px solid #f3c6d4;
+  background: white;
+  padding: 0 1rem;
+  font-weight: 700;
+  color: #3f2d2d;
+}
+
+.field:focus { outline: 3px solid #f3c6d4; border-color: #c73667; }
+
+.card {
+  border-radius: 28px;
+  background: white;
+  box-shadow: 0 10px 30px rgb(199 54 103 / 8%);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

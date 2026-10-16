@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@import "./theme.css";
+
+html, body, #root { min-height: 100%; }
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  background: #f3e6dc;
+  color: var(--color-ink);
+}
+
+button, input { font: inherit; }
+button { cursor: pointer; }
+img { max-width: 100%; }

@@ -1,0 +1,17 @@
+{
+  "name": "Little Booth",
+  "short_name": "Little Booth",
+  "description": "Two phones. One moment. A thousand memories.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFF6EE",
+  "theme_color": "#FFF6EE",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

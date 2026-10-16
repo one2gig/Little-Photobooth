@@ -1,0 +1,34 @@
+project_id = "little-booth"
+
+[functions.create-booth]
+verify_jwt = false
+
+[functions.join-booth]
+verify_jwt = false
+
+[functions.sync-booth]
+verify_jwt = false
+
+[functions.set-ready]
+verify_jwt = false
+
+[functions.start-shot]
+verify_jwt = false
+
+[functions.report-capture]
+verify_jwt = false
+
+[functions.resolve-shot]
+verify_jwt = false
+
+[functions.set-theme]
+verify_jwt = false
+
+[functions.leave-booth]
+verify_jwt = false
+
+[functions.post-signal]
+verify_jwt = false
+
+[functions.expire-booth]
+verify_jwt = false
